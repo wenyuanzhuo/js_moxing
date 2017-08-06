@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee of tea</title>
+</head>
+<body>
+    <!-- <h2>泡一杯咖啡</h2>
+    <div>
+       把水煮沸<br>
+       把沸水冲泡咖啡<br>
+       把咖啡倒进杯子<br>
+       加糖和牛奶<br>
+    </div>
+    <h2>泡一杯茶</h2>
+     <div></div>
+    <h2>泡饮品</h2>
+    <div>
+        把水煮沸<br>
+        把沸水冲泡饮品<br>
+        把饮品倒进杯子<br>
+        加调料<br>
+    </div> -->
+    <script>
+  //     var Coffee = function() {}
+  //     Coffee.prototype.boilWater = function() {
+  //        console.log('水煮开了');
+  //     }
+  //     Coffee.prototype.brewCoffeeGriends = function() {
+  //        console.log('用沸水冲泡咖啡');
+  //     }
+  //     Coffee.prototype.pourInCup = function() {
+  //        console.log('把咖啡倒进杯子');
+  //     }
+  //     Coffee.prototype.addSugerAndMilk = function() {
+  //        console.log('加糖和牛奶');
+  //     }
+  //     // 封装 将实现的细节交给类的内部
+  //
+  //     Coffee.prototype.init = function() {
+  //        this.boilWater();
+  //        this.brewCoffeeGriends();
+  //        this.pourInCup();
+  //        this.addSugerAndMilk();
+  //     }
+  //       var coffee = new Coffee();
+  //       coffee.init();
+  //
+  // class Tea {
+  //     constructor () {
+  //
+  //     }
+  //     boilWater() {
+  //       console.log('把水煮沸');
+  //     }
+  //     steepTeaBag() {
+  //       console.log('放入茶包');
+  //     }
+  //     pourInCup() {
+  //       console.log('茶倒进杯子');
+  //     }
+  //     addLemon() {
+  //       console.log('加柠檬');
+  //     }
+  //     init() {
+  //       this.boilWater();
+  //       this.steepTeaBag();
+  //       this.pourInCup();
+  //       this.addLemon();
+  //     }
+  // }
+  // var tea = new Tea();
+  // tea.init();
+  // 父类  子类
+  // 继承   overeide
+  // 抽象类  abstract  class
+  // 不用实例化，而是子类实现的抽象
+  // var Beverage = function() {}
+  // Beverage.prototype.boilWater = function() {
+  //    console.log('水煮开了');
+  // }
+  // //抽象方法
+  // Beverage.prototype.brew = function() {}
+  // Beverage.prototype.pourInCup = function() {}
+  // Beverage.prototype.addCondiments = function() {}
+  // Beverage.prototype.init = function() {
+  //    this.boilWater();
+  //    this.brew();
+  //    this.pourInCup();
+  //    this.addCondiments();
+  // }
+  // // 泡茶品流程  模板模式  抽象类 抽象方法在子类中实现
+  // // es6  extends   es5 ?
+  // var Coffee = function() {
+  //   // 将父类的构造方法拿来用一下
+  //    Beverage.apply(this, arguments);
+  //   //  this 上才有对象的属性
+  //
+  // }
+  // // js继承基于原型链的继承
+  // // 对象的方法查找是沿着原型链一直跑的
+  // // 找找自己的方法和属性
+  // // 父子孙  java等的大型语法的继承
+  // // js继承   尧舜禹 类似的人
+  // // Object 方法  其他对象都有
+  // Coffee.prototype = new Beverage();   //查找方法，沿着原型链  长出新的链分支来  new Beverage() 对象的方法
+  // var coffee = new Coffee();
+  // coffee.init();
+  // var Tea = function() {}
+  // Tea.ptototype = new Beverage();
+  //
+  // var tea = new Tea();
+  // tea.init();
+    </script>
+</body>
+</html>
